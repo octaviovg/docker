@@ -2,7 +2,7 @@
 
 ## Generalidades
 
-![Componentes docker](imagenes\componentes_docker.png)
+![Componentes docker](imagenes/componentes_docker.png)
 
 Componentes dentro del circulo de Docker:
 
@@ -48,9 +48,9 @@ Docker hace que los procesos adentro de un contenedor este aislados del resto de
 Cada contenedor tiene un ID único, también tiene un nombre.
 
 ## Comandos basicos docker
-![comandos basicos](imagenes\comandos_basicos.png)
+![comandos basicos](imagenes/comandos_basicos.png)
 
-![comandos exponer contenedores](imagenes\exponer_contenedores.png)
+![comandos exponer contenedores](imagenes/exponer_contenedores.png)
 
 ---
 ## Datos en docker
