@@ -2,7 +2,7 @@
 
 ## Generalidades
 
-![Componentes docker](https://github.com/octaviovg/docker/assets/33030546/663519a8-eef1-4737-a766-939b0de372e0)
+![Componentes docker](imagenes\componentes_docker.png)
 
 Componentes dentro del circulo de Docker:
 
@@ -48,9 +48,9 @@ Docker hace que los procesos adentro de un contenedor este aislados del resto de
 Cada contenedor tiene un ID único, también tiene un nombre.
 
 ## Comandos basicos docker
-![comandos basicos](image.png)
+![comandos basicos](imagenes\comandos_basicos.png)
 
-![comandos exponer contenedores](image-1.png)
+![comandos exponer contenedores](imagenes\exponer_contenedores.png)
 
 ---
 ## Datos en docker
