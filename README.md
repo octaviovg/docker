@@ -1,2 +1,3 @@
-# learning
-Diferents topics and his notes
+# Docker curso basico platzi
+
+
