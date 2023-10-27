@@ -54,3 +54,24 @@ Cada contenedor tiene un ID único, también tiene un nombre.
 
 ---
 ## Datos en docker
+
+![tipos de datos](imagenes/tipos_de_datos.png)
+
+**Bind Mount:** Guarda los archivos en la maquina local persistiendo y visualizando estos datos (No seguro).
+
+```Docker
+docker run -v ruta_del_directorio_local:ruta_en_el_contenedor imagen_del_contenedor
+```
+
+**Volumenes:** Guarda los archivos en el area de Docker donde Docker los administra (Seguro).
+
+```Docker
+docker volume create nombre_del_volumen
+docker run --mount source=nombre_del_volumen,target=ruta_en_el_contenedor imagen_del_contenedor
+```
+
+**TMPFS Mount:** Guarda los archivos temporalmente (Memoria RAM) y persiste los datos en la memoria del contenedor, cuando muera sus datos mueren con el contenedor. Solo disponible cuando se corre docker en linux.
+
+Es posible copiar archivos del HOST al contenedor o viceversa, estos serían los comandos:
+
+![copy commands](imagenes/copy_commands.png)
