@@ -18,6 +18,10 @@ Dentro de la arquitectura de Docker encontramos:
 
 **Imagenes:** Son las encapsulaciones de x contenedor. Podemos correr nuestra aplicación en Java por medio de una imagen, podemos utilizar Ubuntu para correr nuestro proyecto, etc.
 
+Para crear una imagen a partir de un dockerfile, estando parados en la carpeta que contiene el archivo, ejecutamos el comando: 
+```bash
+docker build -t nombre_de_tu_imagen .
+```
 **Volumenes de datos:** Podemos acceder con seguridad al sistema de archivos de nuestra máquina.
 
 **Redes:** Son las que permiten la comunicación entre contenedores.
